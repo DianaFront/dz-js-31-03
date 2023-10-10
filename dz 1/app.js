@@ -1,5 +1,5 @@
 const name = prompt('Введите ваше имя').toUpperCase()
-const surname = prompt('Введите вашу фамилию').toUpperCase()
+const surname = prompt('Введите вашу фамилию').toUpperCase() //методы строк просто для красоты
 const age = Number(prompt('Введите ваш возраст'))
 
 if (age <= 18 && age >= 14) {
